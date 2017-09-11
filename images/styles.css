@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+a
+{
+	font-size:14px;
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+body{
+font-family: Verdana, Geneva, sans-serif;
+font-size: 0.875em;
+color: #666666;
+margin:0;
+padding:0;
+background:url(mol-bg.jpg);
+}
+
+.header-wrapper {
+    background: #1e4b87;
+    font-size: 13px;
+    font-weight: bold;
+	margin-bottom:0;
+}
+.footer-wraper{
+	background:#CCC;
+	padding:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:0; /*-20px;*/
+}
+
+.copy{
+	color:#fff;
+	background:#1e4b87;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding: 20px 80px;
+}
+
+.main-wrapper {
+  overflow: hidden;
+  background: #fff;
+  width:900px;
+  margin:0 auto;
+  padding:0;
+}
+.content
+{
+	padding:20px;
+	font-size:14px;
+	line-height:20px;
+}
+.container {
+    width: 860px;
+}
